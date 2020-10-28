@@ -1,3 +1,8 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+Initial Release 👑
+
+- Added WidgetKit.reloadAllTimelines()
+- Added WidgetKit.reloadTimelines(ofKind: String)
+- Added WidgetKit.setItem(String key, dynamic value, String appGroup)
+- Added WidgetKit.getItem(String key, String appGroup)

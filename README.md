@@ -1,6 +1,7 @@
 <h1 align="center"> flutter_widgetkit </h1>
 
 <p align="center">
+    <img alt="flutter" src="./git_assets/flutter.png" width="96">
     <img alt="widgetkit" src="./git_assets/widgetkit.png" width="96">
 </p>
 

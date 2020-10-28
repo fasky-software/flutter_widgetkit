@@ -70,7 +70,7 @@ Writes Key-Value to <a href="https://developer.apple.com/documentation/foundatio
 
 ---
 
-#### `WidgetKit.getItem(String key,String appGroup)`
+#### `WidgetKit.getItem(String key, String appGroup)`
 
 Reads Value from <a href="https://developer.apple.com/documentation/foundation/userdefaults">UserDefaults</a> database.
 

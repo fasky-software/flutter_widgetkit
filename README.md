@@ -29,9 +29,9 @@
 
 This library allows you to call essential methods from the iOS "WidgetKit Framework", which are needed when developing a widget. For example updating the widget timelines. It is also possible to communicate with the widget via <a href="https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_security_application-groups">App Groups</a>/<a href="https://developer.apple.com/documentation/foundation/userdefaults">UserDefaults</a>.
 
-##### <strong>👨‍🏫 <a href="https://thomas-leiter.medium.com/develop-an-ios-14-widget-in-flutter-with-swiftui-e98eaff2c606">Blog</a> about writing a Widget with this library</strong>
-
 🚨 To be on the safe side: This library exposes API functionality of <a href="https://developer.apple.com/documentation/widgetkit/">WidgetKit</a>. The widgets themselves must be developed natively in SwiftUI.
+
+### <strong>ℹ️ <a href="https://thomas-leiter.medium.com/develop-an-ios-14-widget-in-flutter-with-swiftui-e98eaff2c606">Blog</a> about writing a Widget with this library</strong>
 
 ## Installation 🖇‍
 

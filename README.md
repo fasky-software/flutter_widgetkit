@@ -18,12 +18,12 @@
 
 ## Table of Contents 📚
 
-- [Introduction 👨‍🏫](##introduction-👨‍🏫)
-- [Installation 🖇‍](##installation-🖇‍)
-- [Usage 👨🏻‍💻](##usage-👨🏻‍💻)
-- [Methods 📖](##methods-📖‍)
-- [Contributors 🤓](##contributors-🤓)
-- [License 🔖](##license-🔖)
+- [Introduction 👨‍🏫](#introduction-)
+- [Installation 🖇‍](#installation-)
+- [Usage 👨🏻‍💻](#usage-)
+- [Methods 📖](#methods-)
+- [Contributors 🤓](#contributors-)
+- [License 🔖](#license-)
 
 ## Introduction 👨‍🏫
 

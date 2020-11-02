@@ -1,6 +1,6 @@
 name: flutter_widgetkit
-description: A new flutter plugin project.
-version: 1.0.0
+description: Flutter library for iOS Widgets Extensions. Integrate a Widget into your App
+version: 1.0.1
 homepage: https://github.com/fasky-software/flutter_widgetkit
 repository: https://github.com/fasky-software/flutter_widgetkit
 

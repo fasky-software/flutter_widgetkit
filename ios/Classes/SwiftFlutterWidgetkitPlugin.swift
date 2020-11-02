@@ -12,7 +12,9 @@ public class SwiftFlutterWidgetkitPlugin: NSObject, FlutterPlugin {
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     if(call.method == "reloadAllTimelines") {
       if #available(iOS 14.0, *) {
+        #if arch(arm64) || arch(i386) || arch(x86_64)
         WidgetCenter.shared.reloadAllTimelines()
+        #endif
       }
       result(nil);
       return;
@@ -20,7 +22,9 @@ public class SwiftFlutterWidgetkitPlugin: NSObject, FlutterPlugin {
       if #available(iOS 14.0, *) {
         if let args = call.arguments as? [String: Any],
          let ofKind = args["ofKind"] as? String {
+          #if arch(arm64) || arch(i386) || arch(x86_64)
           WidgetCenter.shared.reloadTimelines(ofKind: ofKind)
+          #endif
         }
       }
 

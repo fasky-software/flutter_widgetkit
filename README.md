@@ -76,6 +76,12 @@ Reads Value from <a href="https://developer.apple.com/documentation/foundation/u
 
 ---
 
+#### `WidgetKit.removeItem(String key, String appGroup)`
+
+Removes Value for Key from <a href="https://developer.apple.com/documentation/foundation/userdefaults">UserDefaults</a> database.
+
+---
+
 ## [Contributors 🤓](#Contributors)
 
 | [<img alt="Thomas Leiter" src="https://avatars3.githubusercontent.com/u/20393156?s=400&u=ae0a43de5d81d58a698abffe4e2ede024f2b6700&v=4" width="117">](https://github.com/tomLadder) |

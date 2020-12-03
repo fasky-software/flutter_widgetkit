@@ -68,7 +68,11 @@ class _MyAppState extends State<MyApp> {
             RaisedButton(onPressed: () {
               WidgetKit.setItem('widgetData', jsonEncode(FlutterWidgetData(textController.text)), 'group.com.fasky');
               WidgetKit.reloadAllTimelines();
-            }, child: Text('Update Widget 🥳'))
+            }, child: Text('Update Widget 🥳')),
+            RaisedButton(onPressed: () {
+              WidgetKit.removeItem('widgetData', 'group.com.fasky');
+              WidgetKit.reloadAllTimelines();
+            }, child: Text('Remove Widget Data ⚠️'))
           ],
         ),
         ),

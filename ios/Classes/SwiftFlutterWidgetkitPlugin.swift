@@ -80,8 +80,30 @@ public class SwiftFlutterWidgetkitPlugin: NSObject, FlutterPlugin {
 
        result(nil);
        return;
+    } else if(call.method == "removeItem") {
+        if let args = call.arguments as? [String: Any],
+         let appGroup = args["appGroup"] as? String,
+         let key = args["key"] as? String {
+
+         var sharedDefaults: UserDefaults? = nil
+
+         if(appGroup != "") {
+            sharedDefaults = UserDefaults.init(suiteName: appGroup)
+         }
+
+         if(sharedDefaults == nil) {
+            result(nil)
+            return
+         }
+
+         sharedDefaults?.removeObject(forKey: key)
+
+         result(true)
+         return
+      }
     }
 
     result(FlutterMethodNotImplemented);
   }
 }
+

@@ -27,4 +27,8 @@ class WidgetKit {
   static dynamic setItem(String key, dynamic value, String appGroup) async {
     return await _channel.invokeMethod('setItem', <String, dynamic>{'key': key, 'value': value, 'appGroup': appGroup});
   }
+
+  static Future<bool> removeItem(String key, String appGroup) async {
+    return await _channel.invokeMethod('removeItem', <String, dynamic>{'key': key, 'appGroup': appGroup});
+  }
 }

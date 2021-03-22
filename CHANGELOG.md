@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Migrated to null-safety (<a href="https://github.com/fasky-software/flutter_widgetkit/pull/10">#10</a>)
+
 ## 1.0.2
 
 - Added WidgetKit.removeItem(String key, String appGroup)
